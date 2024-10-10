@@ -2,11 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  var estilo = {
+    color: "red",
+    backgroundcolor: "yellow",
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p style={estilo}>
           Edit <code>src/App.js</code> and HOLA MUNDO to reload.
         </p>
         <a
